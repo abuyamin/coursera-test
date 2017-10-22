@@ -3,12 +3,15 @@
   box-sizing: border-box;
   font-family: "Comic Sans MS", "Comic Sans", Helvetica;
 }
+
 body{
   background-color: #FAFCFF;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%;
 }
 
 p {
@@ -16,31 +19,25 @@ p {
   background-color: #999999;
   margin-right: 15px;
   margin-left: 15px;
-  font-size: 120%;
-  /*text-align: justify;*/
   font-weight: normal;
-  padding-top: 15px;
-  /*color: white;*/
+  padding-top: 20px;
 }
 
 div.dish{
   position: relative;
   border: 2px solid black;
   background-color: #999999;
-  margin: 10px;
+  margin: 0px 10px 20px 10px;
   font-weight: bold;
 }
+
 div.dish-name{
-  /*float: right;*/
   position: absolute;
   right: -1px;
   top: -1px;
   padding: 5px 20px 5px 20px;
   border: 1px solid black;
-  /*padding-right: 10px;*/
-  /*padding-left: 10px;*/
-    /*margin-right: 10px;
-    margin-left: 10px;*/
+  font-size: 125%;
 
   }
 
