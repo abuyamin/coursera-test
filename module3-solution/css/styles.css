@@ -75,11 +75,11 @@ body {
 div.menu{
 	padding-left: 15px;
 	padding-right: 15px;
-}
-div.menu{
 	background: #ddd;
 	margin: 0 auto 15px;
-	/*width: 90%;*/
+	border-radius: 5px;
+	/*box-shadow: 10px 10px 5px #888888;*/
+	box-shadow: 10px -15px 10px #888;
 }
 
 div.menu section{
