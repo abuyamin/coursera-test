@@ -1,0 +1,105 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  /*font-family: 'Oxygen', sans-serif;*/
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/*
+#collapsable-nav {
+	background-color:#fff;
+	border-top: 2px solid #000;
+}*/
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+  background: #ddd;
+}
+#nav-list a:hover {
+	font-weight: bold;
+  background: #999;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list  hr{
+	border-top: 2px solid #000;
+	margin: 0 auto;
+	text-align: center;
+}
+/** HEADER **/
+
+/* HOME PAGE */
+.container .jumbotron {
+  /*box-shadow: 0 0 50px #3F0C1F;*/
+  /*border: 2px solid #3F0C1F;*/
+  border-radius: 0;
+  background: #fff;
+  padding: 0px;
+}
+.container .jumbotron h1{
+	margin: 0;
+}
+
+div.menu{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div.menu{
+	background: #ddd;
+	margin: 0 auto 15px;
+	/*width: 90%;*/
+}
+
+div.menu section{
+	/*margin: 0 auto;	*/
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-shadow: .1em .1em .1em #222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* HOME PAGE */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav {
+	/*background-color:#fff;*/
+	border-top: 2px solid #000;
+  }
+ }
